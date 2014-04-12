@@ -1,1 +1,50 @@
 @import 'bootstrap';
+
+@import url("//fonts.googleapis.com/css?family=Pacifico:400");
+
+body {
+	background-color: #fafafa;
+}
+
+.navbar-brand {
+	font-family: Pacifico;
+	font-weight: bold;
+	font-style: italic;
+  font-size: 26px;
+
+}
+
+.navbar-default .navbar-brand {
+  color: #428bca;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #2a6496;
+}
+
+.middle-dot {
+	color: #999;
+}
+
+.center {
+	text-align: center;
+}
+
+.caption h2 {
+	margin-top: 5px;
+	color: #999;
+}
+
+.description {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.share-buttons {
+	text-align: center;
+	a {
+		margin: 0 5px 20px 5px;
+	}
+}
