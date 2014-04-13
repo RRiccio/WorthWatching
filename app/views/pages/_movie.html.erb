@@ -6,7 +6,7 @@
         <h2><%= movie['title'] %></h2>
         <span class="glyphicon glyphicon-star"></span> <b><%= movie['rating'] %> no IMDB</b>
         <span class="middle-dot"> · </span>
-        <span class="glyphicon glyphicon-pushpin"></span> <b><%= movie['theater_count'] %> cinemas</b>
+        <span class="glyphicon glyphicon-map-marker"></span> <b><%= movie['theater_count'] %> cinemas</b>
         <span class="description">“<%= movie['plot_outline'] || movie['pt_br_plot_outline'] %>”</span>
         <p><a href=<%= movie['ticket_url'] %> class="btn btn-primary btn-lg" role="button">Comprar Ingresso</a></p>
       </div>
