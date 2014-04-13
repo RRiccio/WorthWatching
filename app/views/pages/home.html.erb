@@ -7,7 +7,7 @@
 </div>
 
 <div class="page-header">
-  <h2><small>O <a href="/" rel="nofollow">Filmaços</a> é uma lista curada dos melhores filmes nos cinemas do Rio de Janeiro. Pra que você não caia em furadas como <em>Noé</em> e <em>Yves Saint Laurent</em>.</small></h2>
+  <h2><small>O <a href="/" rel="nofollow">Filmaços</a> é uma lista curada dos melhores filmes nos cinemas do Rio de Janeiro. Pra que você não caia em furadas como <em><%= @rejected_movies.first["title"] %></em> e <em><%= @rejected_movies.last["title"] %></em>.</small></h2>
 </div>
 
 <div class="share-buttons">
