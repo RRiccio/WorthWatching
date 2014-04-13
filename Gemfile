@@ -45,3 +45,5 @@ gem "quiet_assets"
 group :development do
   gem "sqlite3"
 end
+
+gem 'heroku-deflater', :group => :production
