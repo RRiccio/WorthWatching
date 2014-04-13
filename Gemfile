@@ -41,3 +41,7 @@ gem 'bootstrap-sass'
 gem "pry"
 gem "pry-rails"
 gem "quiet_assets"
+
+group :development do
+  gem "sqlite3"
+end

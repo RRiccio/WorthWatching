@@ -6,8 +6,8 @@ production:
   timeout: 5000
 
 development:
-  adapter: postgresql
-  database: filmacos_development
+  adapter: sqlite3
+  database: db/db.sqlite3
   encoding: utf8
   pool: 5
   timeout: 5000
