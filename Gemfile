@@ -38,3 +38,6 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'bootstrap-sass'
+gem "pry"
+gem "pry-rails"
+gem "quiet_assets"
