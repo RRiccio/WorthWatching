@@ -16,6 +16,6 @@
 //= require_tree .
 
 $('.buy').on('click', function() {
-	var movieName = $(this).parent().parent().find("h2").textContent;
+	var movieName = $(this).parent().parent().find("h2").text();
 	ga('send', 'event', 'buy', 'click', movieName);
 });
