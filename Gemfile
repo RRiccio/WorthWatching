@@ -46,4 +46,7 @@ group :development do
   gem "sqlite3"
 end
 
-gem 'heroku-deflater', :group => :production
+group :production do
+  gem "rails_12factor"
+  gem 'heroku-deflater'
+end
