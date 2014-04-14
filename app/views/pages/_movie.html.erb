@@ -10,7 +10,7 @@
         <span class="middle-dot"> · </span>
         <span class="glyphicon glyphicon-map-marker"></span> <b><%= pluralize movie['theater_count'], "cinema" %> </b>
         <span class="description">“<%= movie['plot_outline'] || movie['pt_br_plot_outline'] %>”</span>
-        <p><a href=<%= movie['ticket_url'] %> class="btn btn-primary btn-lg buy" role="button">Comprar Ingresso</a></p>
+        <p><a href=<%= movie['ticket_url'] %> class="btn btn-primary btn-lg buy" role="button" target="_blank">Comprar Ingresso</a></p>
       </div>
     </div>
   </div>
