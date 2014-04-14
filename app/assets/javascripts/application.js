@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+$('.buy').on('click', function() {
+	var movieName = $(this).parent().parent().find("h2").textContent;
+	ga('send', 'event', 'buy', 'click', movieName);
+});
