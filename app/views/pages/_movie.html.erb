@@ -1,7 +1,7 @@
 <% @movies.each_slice(3) do |movies| %>
-<div class="row" itemscope itemtype="http://schema.org/Movie">
+<div class="row">
   <% movies.each do |movie| %>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4" itemscope itemtype="http://schema.org/Movie">
     <div class="thumbnail">
       <img src="<%= movie['poster_url'] %>" itemprop="image">
       <div class="caption center">
