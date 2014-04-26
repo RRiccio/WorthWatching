@@ -6,7 +6,7 @@
       <img src="<%= movie['poster_url'] %>" itemprop="image">
       <div class="caption center">
         <h2 itemprop="name"><%= movie['title'] %></h2>
-        <span class="glyphicon glyphicon-star" itemprop="aggregateRating"></span> <b><%= movie['rating'] %> no IMDB</b>
+        <span class="glyphicon glyphicon-star"></span> <b itemprop="aggregateRating"><%= movie['rating'] %> no IMDB</b>
         <span class="middle-dot"> · </span>
         <span class="glyphicon glyphicon-map-marker"></span> <b><%= pluralize movie['theater_count'], "cinema" %> </b>
         <span class="description" itemprop="description">“<%= movie['plot_outline'] || movie['pt_br_plot_outline'] %>”</span>
